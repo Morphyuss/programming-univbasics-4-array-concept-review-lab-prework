@@ -4,8 +4,9 @@ def find_element_index(array, value_to_find)
   
   while counter < array.length do
     return value_to_find[index]
-    counter += 1
     binding.pry
+    counter += 1
+    
     puts value_to_find
 end
 puts "nil"
