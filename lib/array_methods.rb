@@ -1,4 +1,4 @@
-
+require 'pry'
 def find_element_index(array, value_to_find)
   counter = 0
   
@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
     puts value_to_find
 end
 puts "nil"
-
+binding.pry
 end 
 
 
